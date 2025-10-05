@@ -146,7 +146,7 @@ class ViewController: UIViewController {
             selectStorageButton.topAnchor.constraint(equalTo: storagePathLabel.bottomAnchor, constant: 20),
             selectStorageButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             selectStorageButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            selectStorageButton.heightAnchor.constraint(equalToConstraint: 50),
+            selectStorageButton.heightAnchor.constraint(equalToConstant: 50),
             
             progressView.topAnchor.constraint(equalTo: selectStorageButton.bottomAnchor, constant: 40),
             progressView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
@@ -159,12 +159,12 @@ class ViewController: UIViewController {
             startSyncButton.topAnchor.constraint(equalTo: progressLabel.bottomAnchor, constant: 30),
             startSyncButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             startSyncButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            startSyncButton.heightAnchor.constraint(equalToConstraint: 50),
+            startSyncButton.heightAnchor.constraint(equalToConstant: 50),
             
             stopSyncButton.topAnchor.constraint(equalTo: startSyncButton.bottomAnchor, constant: 15),
             stopSyncButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             stopSyncButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            stopSyncButton.heightAnchor.constraint(equalToConstraint: 50),
+            stopSyncButton.heightAnchor.constraint(equalToConstant: 50),
             
             autoSyncLabel.topAnchor.constraint(equalTo: stopSyncButton.bottomAnchor, constant: 40),
             autoSyncLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
